@@ -39,9 +39,12 @@ body {
 .title {
     text-align: center;
 }
+h1 {
+    padding-left: 45px;
+}
 
 nav {
-    padding-left: 200px;
+    padding-left: 240px;
 }
 
 a {
@@ -71,7 +74,7 @@ footer {
     padding: 70px 10px;
     position: relative;
     top: 20px;
-    right: 20px;
+    right: 0px;
 
 }
 
