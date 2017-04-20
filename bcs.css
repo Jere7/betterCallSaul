@@ -16,6 +16,7 @@ body {
 }   
 
 .layout {
+    display: inline;
     position: relative;
     top: 80px;
 }
@@ -24,12 +25,10 @@ body {
     width: 900px;
     height: 500px; 
     background-color: #fff;   
-    display: block;
+    display: inline-block;
     margin: auto;
 }   
-.images {
-    display: inline-block;
-}
+
 .icon {
 
 }
@@ -38,5 +37,17 @@ body {
 
 }
 
+.images {
+    padding-top: 100px;
+    margin: auto;   
+    display: inline-flex;
+   
+}
+
+img {
+    -webkit-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
+    -moz-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
+    box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
 
 
+}
