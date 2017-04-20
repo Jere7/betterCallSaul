@@ -23,7 +23,7 @@ body {
 
 .content {
     width: 900px;
-    height: 500px; 
+    height: 550px; 
     background-color: #fff;   
     display: inline-block;
     margin: auto;
@@ -38,7 +38,7 @@ body {
 }
 
 .images {
-    padding-top: 100px;
+    padding-top: 60px;
     margin: auto;   
     display: inline-flex;
    
@@ -47,7 +47,14 @@ body {
 img {
     -webkit-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
     -moz-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
-    box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
+    box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);        
+}
 
+footer {
+    padding: 80px 0px;
 
+}
+
+.better {
+    font-size: 1.2em;
 }
