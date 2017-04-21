@@ -45,7 +45,7 @@ h1 {
 }
 
 nav {
-    padding-left: 240px;
+    padding-left: 120px;
 }
 
 a {
@@ -120,11 +120,11 @@ h2 {
     padding-bottom: 10px;
 }
 
-span {
+span,a {
     color: lightgray;   
     padding: 10px;
      position: relative;
-    top: 20px;
-    right: -105px;
+    top: -4px;
+    right: -66px;
 
 }
