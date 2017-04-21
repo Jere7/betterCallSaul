@@ -1,14 +1,14 @@
 body {
-    width: 90%;
+    width: 70%;
     text-align: center;    
     display: block;
     margin: auto;
-    padding: 100px 0px 50px;
+    padding: 150px  100px;
     background-color: black;
 }
 
 .content-layout {
-    width: 1200px;
+    width: 100%;
     background-color: lavender;
     display: block;
     margin: auto;
@@ -16,44 +16,55 @@ body {
 }   
 
 .layout {
-    display: inline;
+    width: 100%;
     position: relative;
     top: 20px;
 }
 
 .content {
+    max-width: 100%;    
+    min-width: 30%;
     width: 900px;
-    height: 550px; 
     background-color: #fff;   
     display: inline-block;
     margin: auto;
 }   
 
  i,h1,nav {
-    min-width: 30px;
+    width: 100%;
+    padding-right: 70px;
+    
 }
 
 .icon {
+    max-width:100%;
+    min-height: 20px;
+    padding: 10px;
     float: left;
-    position: relative;
-    top: 30px;
-    left: 40px;
-}
-
-.title {
-    text-align: center;
-}
-
-h1 {
-    padding-left: 45px;
 }
 
 i {
-    color: red;
+    width: 33.333%;
+    color: none;
+}
+
+.title {
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+h1 {
+    
+    width: 33.333%;
+    padding-left: 310px;
 }
 
 nav {
-    padding-left: 120px;
+    width: 33.333%;
+    padding-left: 90px;
+    display: inline;
 }
 
 a {
@@ -68,7 +79,9 @@ a:hover {
 }
 
 .images-width {
-    width: 100%;       
+    width: 900px;       
+    float: right;
+    max-width: 100%;
 }
 
 .images {
@@ -109,6 +122,7 @@ a:hover {
 }
 
 img {
+    float: right;
     max-width: 100%;
     -webkit-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
     -moz-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
@@ -116,7 +130,10 @@ img {
 }
 
 footer {
-    padding: 70px 10px;
+    width: 60%;
+    float: left;
+    max-width: 100%;
+    padding: 100px 140px;
     position: relative;
     top: 20px;
     right: 0px;
