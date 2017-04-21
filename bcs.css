@@ -44,6 +44,7 @@ body {
 }
 
 i {
+    padding-top: 17px;
     width: 33.333%;
     color: none;
 }
@@ -139,13 +140,15 @@ footer {
     right: 0px;
 }
 
-h2 {
+h2 {    
+    width: 100%;
     font-size: 1.2em;
     margin: 0px;
-    padding-bottom: 10px;
+    padding: 50px 0px 10px 0px;
 }
 
 span,a {
+    
     color: lightgray;   
     padding: 10px;
     position: relative;
