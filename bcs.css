@@ -19,6 +19,7 @@ body {
     display: inline;
     position: relative;
     top: 80px;
+
 }
 
 .content {
@@ -57,13 +58,45 @@ a:hover {
     color: burlywood;
 }
 
+.images-width {
+        
+      
+}
+
 .images {
     padding-top: 60px;
     margin: auto;   
     display: inline-flex;
-   
+    
 }
 
+.one-image {
+    
+    
+    background-clip: content-box; /* support: IE9+ */
+    background-color:;
+}
+
+.images-width {
+    width: 100%;
+}
+
+.one-image {
+    width: 230px;
+}
+.two-image {
+    width: 230px;
+}
+.tree-image {
+    width: 230px;
+}
+.four-image {
+    width: 230px;
+}
+.five-image {
+    width: 230px;
+    padding-right: 100px;
+}
 img {
     -webkit-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
     -moz-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
