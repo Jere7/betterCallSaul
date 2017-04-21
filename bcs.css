@@ -1,14 +1,14 @@
 body {
+    width: 90%;
     text-align: center;    
     display: block;
     margin: auto;
-    padding: 50px 50px 50px;
+    padding: 100px 0px 50px;
     background-color: black;
 }
 
 .content-layout {
     width: 1200px;
-    height: 600px; 
     background-color: lavender;
     display: block;
     margin: auto;
@@ -18,8 +18,7 @@ body {
 .layout {
     display: inline;
     position: relative;
-    top: 80px;
-
+    top: 20px;
 }
 
 .content {
@@ -29,6 +28,10 @@ body {
     display: inline-block;
     margin: auto;
 }   
+
+ i,h1,nav {
+    min-width: 30px;
+}
 
 .icon {
     float: left;
@@ -40,13 +43,15 @@ body {
 .title {
     text-align: center;
 }
+
 h1 {
     padding-left: 45px;
 }
 
 i {
-    color: black;
+    color: red;
 }
+
 nav {
     padding-left: 120px;
 }
@@ -57,47 +62,54 @@ a {
     color: lightgray;
     padding: 10px; 
 }
+
 a:hover {
     color: burlywood;
 }
 
 .images-width {
-    width: 100%;
-       
+    width: 100%;       
 }
 
 .images {
+    width: 100%;
+    min-width: 100px;
     margin: auto;   
-    display: inline-flex;    
-    
+    display: inline-flex;       
 }
 
 .one-image {
+    width: 20%;
     position: relative;
     left: -110px;  
 }
 
 .two-image {
+    width: 20%;
     position: relative;
     left: -55px; 
 }
 
 .tree-image {
+    width: 20%;
     position: relative;
-        padding: 5px;
+    padding: 5px;
 }
 
 .four-image {
+    width: 20%;
     position: relative;
     left: 55px; 
 }
 
 .five-image {
+    width: 20%;
     position: relative;
     left: 105px; 
 }
 
 img {
+    max-width: 100%;
     -webkit-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
     -moz-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
     box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);        
@@ -119,8 +131,7 @@ h2 {
 span,a {
     color: lightgray;   
     padding: 10px;
-     position: relative;
+    position: relative;
     top: -4px;
     right: -66px;
-
 }
