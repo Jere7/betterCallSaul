@@ -62,46 +62,39 @@ a:hover {
 }
 
 .images-width {
-        
-      
+    width: 100%;
+       
 }
 
 .images {
-    padding-top: 60px;
     margin: auto;   
-    display: inline-flex;
+    display: inline-flex;    
     
 }
 
 .one-image {
-    
-    
-    background-clip: content-box; /* support: IE9+ */
-    background-color:;
+    position: relative;
+    left: -110px;  
 }
-
-.images-width {
-    width: 100%;
-}
-
-.one-image {
- 
- }
 
 .two-image {
- 
+    position: relative;
+    left: -55px; 
 }
 
 .tree-image {
-    
+    position: relative;
+        padding: 5px;
 }
 
 .four-image {
-    
+    position: relative;
+    left: 55px; 
 }
 
 .five-image {
- 
+    position: relative;
+    left: 105px; 
 }
 
 img {
