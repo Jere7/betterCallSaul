@@ -17,8 +17,7 @@ body {
 
 .layout {
     width: 100%;
-    position: relative;
-    top: 20px;
+    float: left;
 }
 
 .content {
@@ -30,54 +29,49 @@ body {
     margin: auto;
 }   
 
-.icon {
-    max-width:100%;
-    min-height: 20px;
-    padding: 10px;
+.header {
+    width: 100%;
     float: left;
 }
 
+.icon {
+    max-width:100%;
+    min-height: 100px;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+
 i {
-    padding-top: 17px;
-    width: 33.333%;
+    width: 100%;
+    float: left;    
+    padding-top: 17px; 
     color: none;
 }
 
-.title {
-    width: 100%;
+.title {    
+    height: 100px;
     float: right;
     width: 100%;
-    min-height: 100px;
-    text-align: center;
-    padding-right: 10px;
-}
-
-
-i {
-    width: 50%;
-    padding-right: 10px;
+    
     
 }
-
-nav {
-    width: 50%;
-    padding-right: 10px;
-    
+.h1-title {
+    width: 100%;
+    float: left;
 }
 
 h1 {
+    min-width: 80%; 
     width: 100%;
     float: left;
-    
     padding-left: 10px;
+    font-size: 1.9em;
 }
 
 nav {
-    width: 100%;
-    float: left;
-    
-    padding-left: 110px;
-    display: inline;
+    width: 67%;
+    float: right;
 }
 
 a {
@@ -95,6 +89,9 @@ a:hover {
     width: 900px;       
     float: right;
     max-width: 100%;
+    box-shadow:
+    0 0 0 10px hsl(0, 0%, 80%),
+    0 0 0 15px hsl(0, 0%, 90%);
 }
 
 .images {
@@ -150,31 +147,27 @@ footer {
 }
 
 .better {
-    text-align: center;
-    width: 100%;
+    padding-left: 45px;
+    max-width: 90%;
     width: 100%;
     float: left;
 
 }
 
 h2 {   
-    width: 50%;
+    width: 80%;
+    float: left;    
     padding-right: 10px;
     max-width: 100%;
-    width: 80%;
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding-top: 120px;
-    padding-right: 210px;
+    padding-right: 190px;
     
 }
 
 span{
     max-width: 100%;    
     min-height: 100%;
-    width: 50%;
     padding-right: 0px;
-    width: 100%;
-    color: lightgray;   
-    
-    
+    color: lightgray;      
 }
