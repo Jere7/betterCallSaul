@@ -1,4 +1,5 @@
 body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 700px;
     width: 100%;
     display: block;
@@ -9,14 +10,14 @@ body {
 
 .content-layout {
     background-color: lavender;    
-    width: 100%;
+    width: 70%;
     height: 700px;
     display: block;
     margin: 0 auto; 
 }   
 
 .layout {
-    width: 100%;
+    width: 80%;
     display: block;
     margin: 0 auto;
     padding: 50px 0px;
@@ -24,7 +25,7 @@ body {
 
 .content {
     max-width: 100%;    
-    min-height: 100%;
+
     width: 800px;
     background-color: #fff;   
     height: 600px;
@@ -33,23 +34,31 @@ body {
 
 .header {
      width: 100%;
-     
 }
 
 .icon {
-    width: 100%;
-    float: left;    
+    width: 10%;       
+    
 }
 
 .title {    
-  text-align: center;
+    max-width: 100%;
+    padding-bottom: 20%;
 }
 
 .h-title {
     width: 100%;
-    float: left;
+    text-align: center;
 }
 
+i {
+    padding-bottom: 2%;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+h1{
+    padding-bottom: 1%;
+}
 a {
       
     text-decoration: none;
@@ -69,42 +78,46 @@ a:hover {
 .images {
  display: inline-flex; 
  margin: 0 auto;
- padding: 0px;
+ padding-bottom: 10%;
 
  
 }
 .one-image {
     width: 100%;  
+    padding-right: 5%;
+    position
 }
 
 .two-image {
     width: 100%;
+    padding-right: 5%;
 }
 
 .tree-image {
     width: 100%;
+    padding-right: 0%;
 }
 
 .four-image {
     width: 100%;
-    
+    padding-left: 5%;
     
 }
 .five-image {
     width: 100%;   
+    padding-left: 5%;
 }
 
 img {    
     max-width: 100%;
-    -webkit-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
-    -moz-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
-    box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);        
+    -webkit-box-shadow: 7px 14px 29px 7px rgba(105,113,115,1);
+    -moz-box-shadow: 7px 14px 29px 7px rgba(105,113,115,1);
+    box-shadow: 7px 14px 29px 7px rgba(105,113,115,1);        
 
 }
 
 footer {
     width: 100%;
-    float: right;
     max-width: 100%;    
 }
 
