@@ -1,23 +1,24 @@
 body {
-    width: 70%;
-    text-align: center;    
+    width: 100%;
     display: block;
-    margin: auto;
-    padding: 90px  100px;
+    margin: 0 auto;
+    padding: 100px  100px;
     background-color: black;
 }
 
 .content-layout {
-    width: 100%;
-    background-color: lavender;
+   
+    background-color: lavender;    
+    width: 70%;
+    height: 700px;
     display: block;
-    margin: auto;
-    padding: 70px 20px;
+    margin: 0 auto;
 }   
 
 .layout {
     width: 100%;
-    float: left;
+    display: block;
+    margin: 0 auto;
 }
 
 .content {
@@ -25,13 +26,12 @@ body {
     min-height: 100%;
     width: 900px;
     background-color: #fff;   
-    display: inline-block;
+    display:inline-block;
     margin: auto;
 }   
 
 .header {
-    width: 100%;
-    float: left;
+    
 }
 
 .icon {
@@ -62,10 +62,10 @@ i {
 }
 
 h1 {
-    min-width: 80%; 
+    
     width: 100%;
     float: left;
-    padding-left: 10px;
+    
     font-size: 1.9em;
 }
 
@@ -75,62 +75,47 @@ nav {
 }
 
 a {
-    display: inline-block;    
+      
     text-decoration: none;
     color: lightgray;
-    padding: 10px; 
+
 }
 
 a:hover {
     color: burlywood;
 }
 
-.images-width {
-    width: 900px;       
-    float: right;
-    padding-bottom: 50%;
-    
-}
 
 .images {
-    width: 100%;
-    min-width: 100px;
-    margin: auto;   
-    display: inline-flex;       
+  
+    margin: 0 auto;   
+    float: left;
 }
 
 .one-image {
-    width: 20%;
-    position: relative;
-    left: -110px;  
+    max-width: 100%;
+  
 }
 
 .two-image {
-    width: 20%;
-    position: relative;
-    left: -55px; 
-}
+    max-width: 100%;
+ }
 
 .tree-image {
-    width: 20%;
-    position: relative;
-    padding: 5px;
-}
+    max-width: 100;
+  }
 
 .four-image {
-    width: 20%;
-    position: relative;
-    left: 55px; 
+    max-width: 100;
+    
 }
-
 .five-image {
-    width: 20%;
-    position: relative;
-    left: 105px; 
+    max-width: 100;
+   
 }
 
 img {
-    float: right;
+    
     max-width: 100%;
     -webkit-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
     -moz-box-shadow: 7px 14px 29px 9px rgba(105,113,115,1);
