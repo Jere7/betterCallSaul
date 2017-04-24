@@ -56,7 +56,7 @@ i {
     
     
 }
-.h1-title {
+.h-title {
     width: 100%;
     float: left;
 }
@@ -88,10 +88,8 @@ a:hover {
 .images-width {
     width: 900px;       
     float: right;
-    max-width: 100%;
-    box-shadow:
-    0 0 0 10px hsl(0, 0%, 80%),
-    0 0 0 15px hsl(0, 0%, 90%);
+    padding-bottom: 50%;
+    
 }
 
 .images {
@@ -165,9 +163,9 @@ h2 {
     
 }
 
-span{
-    max-width: 100%;    
-    min-height: 100%;
-    padding-right: 0px;
-    color: lightgray;      
+footer span{
+    font-size: 1.5em;
+    width: 67%;
+    float: right;
+    color: lightgray;     
 }
